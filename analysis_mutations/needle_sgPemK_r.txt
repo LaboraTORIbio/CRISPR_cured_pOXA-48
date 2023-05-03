@@ -1,0 +1,479 @@
+########################################
+# Program: needle
+# Rundate: Wed 26 Apr 2023 14:51:14
+# Commandline: needle
+#    [-asequence] ./analysis_mutations/sgPemK_r.fasta
+#    [-bsequence] ./analysis_mutations/seqs_enclosing_mutations.fasta
+#    -outfile ./analysis_mutations/needle_sgPemK_r.txt
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./analysis_mutations/needle_sgPemK_r.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: C325_potG
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      13/44 (29.5%)
+# Similarity:    13/44 (29.5%)
+# Gaps:          27/44 (61.4%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+sgPemK_r           1 ---------CCGCTGGTCACGGG--------CACAAC-------     20
+                              ||..|||   ||||        |.|||.       
+C325_potG          1 AAGTTACAACCATTGG---CGGGCGGCTCTTCGCAAAGCATGAT     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: CF12_phage_major_capsid_protein
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      14/43 (32.6%)
+# Similarity:    14/43 (32.6%)
+# Gaps:          25/43 (58.1%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+sgPemK_r           1 ---------------CCGCTGG--TCACG------GGCACAAC     20
+                                    |..||||  ||| |      ||||.|. 
+CF12_phage_ma      1 AAGCCACACAGCAGGCTCCTGGTATCA-GCATTAAGGCAGAG-     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: CF12_pdeR
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      13/45 (28.9%)
+# Similarity:    13/45 (28.9%)
+# Gaps:          29/45 (64.4%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+sgPemK_r           1 CCGCTG------------GTCACGG----------GCACAAC---     20
+                         ||            ||||.||          ||..|||   
+CF12_pdeR          1 ----TGGCGTCAACGAGCGTCAGGGTTTTTTGTTTGCCAAACCAA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: CF12_glpT_glpA
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:       8/50 (16.0%)
+# Similarity:     8/50 (16.0%)
+# Gaps:          39/50 (78.0%)
+# Score: 14.5
+# 
+#
+#=======================================
+
+sgPemK_r           1 CCGCTGGTCACGGGC--------ACAAC----------------------     20
+                              |.|.||        ||||.                      
+CF12_glpT_glp      1 ---------ATGCGCGAAATCAAACAATCCATGTTTTTTATGTGGCTAAA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: H53_znuB
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      10/46 (21.7%)
+# Similarity:    10/46 (21.7%)
+# Gaps:          31/46 (67.4%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+sgPemK_r           1 ---------CCGCTGGTCACGGGCACAAC-----------------     20
+                              |.||..|||.|     |||.                 
+H53_znuB           1 CGCATGCGCCAGCGTGTCGC-----CAAATAAGACATGCGGCGCCA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: H53_tssF
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      11/47 (23.4%)
+# Similarity:    11/47 (23.4%)
+# Gaps:          33/47 (70.2%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+sgPemK_r           1 -------CCGCTGGTCACGGGCACAAC--------------------     20
+                            .|||||   ||   |.|||.                    
+H53_tssF           1 GATCGTAGCGCTG---AC---CCCAAGGCTGCCGGCGATGAAGATGG     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: J57_dehydrogenase_Fiu
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      13/47 (27.7%)
+# Similarity:    13/47 (27.7%)
+# Gaps:          33/47 (70.2%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+sgPemK_r           1 ---------------------------CCGCTGGTCACGGGCACAAC     20
+                                                |||  |||||   ||.||| 
+J57_dehydroge      1 ATTCTTTTTATCATTTATAGAATCACACCG--GGTCA---GCGCAA-     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: K147_integrase
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      11/49 (22.4%)
+# Similarity:    11/49 (22.4%)
+# Gaps:          37/49 (75.5%)
+# Score: 18.5
+# 
+#
+#=======================================
+
+sgPemK_r           1 --------------CCGCTGGTCACGGGCACAAC---------------     20
+                                   .||||  |||  |||    |               
+K147_integras      1 TCGATCGTGAGAAAACGCT--TCA--GGC----CGTGAATCATGCGCTT     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: C288_ompC
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      14/41 (34.1%)
+# Similarity:    14/41 (34.1%)
+# Gaps:          21/41 (51.2%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+sgPemK_r           1 ------CCGCTGGTCA-----CGGGCACAAC----------     20
+                           ..||||.|||     .|||||.||.          
+C288_ompC          1 TGAACTTTGCTGTTCAGTACCAGGGCAAAAACGGTAGCGTA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: C288_cyaY
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      16/43 (37.2%)
+# Similarity:    16/43 (37.2%)
+# Gaps:          25/43 (58.1%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+sgPemK_r           1 ---------CCGCTGGTCAC------GGGC--ACAAC------     20
+                              ||||||  |||      .|||  .||||      
+C288_cyaY          1 CGCCAGGAGCCGCTG--CACCAGGTATGGCTGGCAACCAAACA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: C325_potG_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      11/47 (23.4%)
+# Similarity:    11/47 (23.4%)
+# Gaps:          33/47 (70.2%)
+# Score: 19.5
+# 
+#
+#=======================================
+
+sgPemK_r           1 ----------------------CCGC---TGGTCACGGGCACAAC--     20
+                                           ||||   ||||      ...|||  
+C325_potG_rev      1 ATCATGCTTTGCGAAGAGCCGCCCGCCAATGGT------TGTAACTT     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: CF12_phage_major_capsid_protein_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      13/45 (28.9%)
+# Similarity:    13/45 (28.9%)
+# Gaps:          29/45 (64.4%)
+# Score: 19.0
+# 
+#
+#=======================================
+
+sgPemK_r           1 -----CC-----GCTGGT--CACGGGCACAAC-------------     20
+                          ||     ||||.|  ||.|.||    |             
+CF12_phage_ma      1 CTCTGCCTTAATGCTGATACCAGGAGC----CTGCTGTGTGGCTT     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: CF12_pdeR_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      11/47 (23.4%)
+# Similarity:    11/47 (23.4%)
+# Gaps:          33/47 (70.2%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+sgPemK_r           1 CCGCTGGTCACGGGCACAAC---------------------------     20
+                        .||||  ..|||| |||                           
+CF12_pdeR_rev      1 ---TTGGT--TTGGCA-AACAAAAAACCCTGACGCTCGTTGACGCCA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: CF12_glpT_glpA_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      11/44 (25.0%)
+# Similarity:    11/44 (25.0%)
+# Gaps:          27/44 (61.4%)
+# Score: 12.0
+# 
+#
+#=======================================
+
+sgPemK_r           1 -----CCGC-------------------TGGTCACGGGCACAAC     20
+                          ||.|                   ||.|..||.|||.   
+CF12_glpT_glp      1 TTTAGCCACATAAAAAACATGGATTGTTTGATTTCGCGCAT---     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: H53_znuB_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      15/41 (36.6%)
+# Similarity:    15/41 (36.6%)
+# Gaps:          21/41 (51.2%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+sgPemK_r           1 -----CCGCTGGT------------CACG--GGCACAAC--     20
+                          ||||..||            ||||  |||.||..  
+H53_znuB_revc      1 TGGCGCCGCATGTCTTATTTGGCGACACGCTGGCGCATGCG     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: H53_tssF_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      15/44 (34.1%)
+# Similarity:    15/44 (34.1%)
+# Gaps:          27/44 (61.4%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+sgPemK_r           1 ------------CCG-----CT---GGTCACGGGCACAAC----     20
+                                 |||     ||   |||||   ||.|.||    
+H53_tssF_revc      1 CCATCTTCATCGCCGGCAGCCTTGGGGTCA---GCGCTACGATC     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: J57_dehydrogenase_Fiu_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:       7/53 (13.2%)
+# Similarity:     7/53 (13.2%)
+# Gaps:          45/53 (84.9%)
+# Score: 15.5
+# 
+#
+#=======================================
+
+sgPemK_r           1 --CCGCTGGTCACGGGCACAAC----------------------------     20
+                       .|||||            ||                            
+J57_dehydroge      1 TTGCGCTG------------ACCCGGTGTGATTCTATAAATGATAAAAAG     38
+
+sgPemK_r          20 ---     20
+                        
+J57_dehydroge     39 AAT     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: K147_integrase_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      13/41 (31.7%)
+# Similarity:    13/41 (31.7%)
+# Gaps:          21/41 (51.2%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+sgPemK_r           1 --CCGCTGG--TCACGGGCACAAC-----------------     20
+                       .|||..|  ||||||.|..||.                 
+K147_integras      1 AAGCGCATGATTCACGGCCTGAAGCGTTTTCTCACGATCGA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: C288_ompC_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      14/46 (30.4%)
+# Similarity:    14/46 (30.4%)
+# Gaps:          31/46 (67.4%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+sgPemK_r           1 -------CCG--------CTGGTCACGGGCACAAC-----------     20
+                            |||        ||||| ||.|    |||           
+C288_ompC_rev      1 TACGCTACCGTTTTTGCCCTGGT-ACTG----AACAGCAAAGTTCA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgPemK_r
+# 2: C288_cyaY_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      14/43 (32.6%)
+# Similarity:    14/43 (32.6%)
+# Gaps:          25/43 (58.1%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+sgPemK_r           1 --------------CC---GCTGGT-CACGGGCACAAC-----     20
+                                   ||   .||||| ||..|||.|  |     
+C288_cyaY_rev      1 TGTTTGGTTGCCAGCCATACCTGGTGCAGCGGCTC--CTGGCG     41
+
+
+#---------------------------------------
+#---------------------------------------

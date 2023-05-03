@@ -1,0 +1,86 @@
+strain_name	species	w_norm	source	SE_prop
+Kpn13	Klebsiella_spp	0.761664184791082	Alonso-del Valle et al. 2021	
+Kpn08	Klebsiella_spp	0.766782825544234	Alonso-del Valle et al. 2021	
+Ec25	E_coli	0.810326466935875	Alonso-del Valle et al. 2021	
+Ec24	E_coli	0.825391081649289	Alonso-del Valle et al. 2021	
+Ec06	E_coli	0.861208877354059	Alonso-del Valle et al. 2021	
+Ec18	E_coli	0.86171134137562	Alonso-del Valle et al. 2021	
+Ec04	E_coli	0.86977000935046	Alonso-del Valle et al. 2021	
+Ec21	E_coli	0.878445442592755	Alonso-del Valle et al. 2021	
+Kpn16	Klebsiella_spp	0.890155927048915	Alonso-del Valle et al. 2021	
+Kpn11	Klebsiella_spp	0.896721652668528	Alonso-del Valle et al. 2021	
+Kpn05	Klebsiella_spp	0.905938654582331	Alonso-del Valle et al. 2021	
+Kpn04	Klebsiella_spp	0.91416558878333	Alonso-del Valle et al. 2021	
+Kpn01	Klebsiella_spp	0.917050833643138	Alonso-del Valle et al. 2021	
+Ec01	E_coli	0.924055920957339	Alonso-del Valle et al. 2021	
+Kpn14	Klebsiella_spp	0.94456567768993	Alonso-del Valle et al. 2021	
+Kpn20	Klebsiella_spp	0.949617120268323	Alonso-del Valle et al. 2021	
+Ec03	E_coli	0.953955342	Alonso-del Valle et al. 2021	
+Kpn06	Klebsiella_spp	0.95601608980681	Alonso-del Valle et al. 2021	
+Kpn12	Klebsiella_spp	0.965866882638512	Alonso-del Valle et al. 2021	
+Kpn23	Klebsiella_spp	0.97154624805514	Alonso-del Valle et al. 2021	
+Ec08	E_coli	0.976027132013827	Alonso-del Valle et al. 2021	
+Kpn17	Klebsiella_spp	0.976168092878019	Alonso-del Valle et al. 2021	
+Kpn25	Klebsiella_spp	0.978516221130249	Alonso-del Valle et al. 2021	
+Ec05	E_coli	0.979067930910508	Alonso-del Valle et al. 2021	
+Ec19	E_coli	0.980425896592586	Alonso-del Valle et al. 2021	
+Kpn24	Klebsiella_spp	0.982690056313106	Alonso-del Valle et al. 2021	
+Ec07	E_coli	0.983671482676096	Alonso-del Valle et al. 2021	
+Kpn02	Klebsiella_spp	0.985061177037676	Alonso-del Valle et al. 2021	
+Ec20	E_coli	0.987326740136025	Alonso-del Valle et al. 2021	
+Ec23	E_coli	0.990531271175502	Alonso-del Valle et al. 2021	
+Kpn03	Klebsiella_spp	0.992802194723125	Alonso-del Valle et al. 2021	
+Ec13	E_coli	1.00127449070521	Alonso-del Valle et al. 2021	
+Ec17	E_coli	1.00242248976379	Alonso-del Valle et al. 2021	
+Ec02	E_coli	1.00558520360699	Alonso-del Valle et al. 2021	
+Ec09	E_coli	1.00588069480092	Alonso-del Valle et al. 2021	
+Kpn07	Klebsiella_spp	1.01446667544396	Alonso-del Valle et al. 2021	
+Ec22	E_coli	1.0148222902926	Alonso-del Valle et al. 2021	
+Kpn09	Klebsiella_spp	1.01572283548342	Alonso-del Valle et al. 2021	
+Kpn18	Klebsiella_spp	1.02377643373325	Alonso-del Valle et al. 2021	
+Ec10	E_coli	1.02525618059969	Alonso-del Valle et al. 2021	
+Ec16	E_coli	1.03421127011285	Alonso-del Valle et al. 2021	
+Kpn10	Klebsiella_spp	1.03601275891075	Alonso-del Valle et al. 2021	
+Ec11	E_coli	1.03845763	Alonso-del Valle et al. 2021	
+Kpn19	Klebsiella_spp	1.04378682565005	Alonso-del Valle et al. 2021	
+Kpn21	Klebsiella_spp	1.0515160386111	Alonso-del Valle et al. 2021	
+Ec12	E_coli	1.05893746	Alonso-del Valle et al. 2021	
+Ec15	E_coli	1.06426839979662	Alonso-del Valle et al. 2021	
+Kpn22	Klebsiella_spp	1.13403540599882	Alonso-del Valle et al. 2021	
+Ec14	E_coli	1.15186276791951	Alonso-del Valle et al. 2021	
+Kpn15	Klebsiella_spp	1.17317741023179	Alonso-del Valle et al. 2021	
+AJ_N46	E_coli	0.623415200592475	This work	0.020178580677186
+AJ_C310	E_coli	0.894112984488123	This work	0.01905483999244
+AJ_C728	E_coli	0.894474383900132	This work	0.011224973299581
+CF12	C_freundii	0.895643036733719	This work	0.013863338782532
+K163	Klebsiella_pneumoniae	0.925741174600743	This work	0.01115496042134
+AJ_Nh27	E_coli	0.926938449689936	This work	0.04325929171898
+R10	K_ascorbata	0.932120797144842	This work	0.027116325124763
+AJ_C527	E_coli	0.93282496596774	This work	0.023781005289138
+AJ_N23	Klebsiella_pneumoniae	0.938720830915166	This work	0.013456926076459
+AJ_K219	Klebsiella_pneumoniae	0.940635595577983	This work	0.007065792210411
+AJ_K198	Klebsiella_pneumoniae	0.941253816822877	This work	0.033503431399696
+AJ_L38	E_coli	0.951033399572217	This work	0.010464020278294
+C642	E_coli	0.956424075032113	This work	0.023735204150084
+AJ_S8	E_coli	0.966526109727	This work	0.015504375247714
+C325	E_coli	0.969883134696192	This work	0.018111980383951
+C609	E_coli	0.970742119141375	This work	0.017422840312574
+AJ_K25	Klebsiella_pneumoniae	0.97131784520941	This work	0.009922789269617
+K147	Klebsiella_pneumoniae	0.97332153452005	This work	0.009785249761694
+C662	E_coli	0.976050865017999	This work	0.020992327138297
+CF13	C_freundii	0.977040625070218	This work	0.009103982470815
+H53	Klebsiella_pneumoniae	0.977307872277586	This work	0.015058655805899
+AJ_K88	Klebsiella_pneumoniae	0.979138382877519	This work	0.00517377860494
+AJ_Z29	E_coli	0.981371077345604	This work	0.018154898023835
+AJ_K127	Klebsiella_pneumoniae	0.992244292436279	This work	0.022663185979581
+AJ_K293	Klebsiella_pneumoniae	0.997933715663614	This work	0.021776004164942
+AJ_K308	Klebsiella_pneumoniae	1.00766188334039	This work	0.017564652272884
+AJ_K244	Klebsiella_pneumoniae	1.01458993456088	This work	0.008335986484126
+AJ_K318	Klebsiella_pneumoniae	1.01487339315748	This work	0.028423962994811
+AJ_C646	E_coli	1.01686687144261	This work	0.013489093459296
+K153	Klebsiella_pneumoniae	1.01855809088021	This work	0.033462765112531
+J57	K_variicola	1.01909155799536	This work	0.018811330333832
+AJ_J61	Klebsiella_pneumoniae	1.02289544721145	This work	0.010859701020194
+AJ_C163	E_coli	1.03945769966054	This work	0.047246137402153
+AJ_C164	E_coli	1.05960137265994	This work	0.013629183132148
+C288	E_coli	1.13752036997285	This work	0.018302610133356

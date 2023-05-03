@@ -1,0 +1,499 @@
+########################################
+# Program: needle
+# Rundate: Wed 26 Apr 2023 14:51:13
+# Commandline: needle
+#    [-asequence] ./analysis_mutations/sgOXA-48_f.fasta
+#    [-bsequence] ./analysis_mutations/seqs_enclosing_mutations.fasta
+#    -outfile ./analysis_mutations/needle_sgOXA-48_f.txt
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./analysis_mutations/needle_sgOXA-48_f.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: C325_potG
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      11/43 (25.6%)
+# Similarity:    11/43 (25.6%)
+# Gaps:          25/43 (58.1%)
+# Score: 16.5
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 -------------TGGCTTGTTTGACAATACGC----------     20
+                                  ||||  |...|.|..|.|||          
+C325_potG          1 AAGTTACAACCATTGGC--GGGCGGCTCTTCGCAAAGCATGAT     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: CF12_phage_major_capsid_protein
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      11/46 (23.9%)
+# Similarity:    11/46 (23.9%)
+# Gaps:          31/46 (67.4%)
+# Score: 16.5
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 ------------TGGCT--TGTTTGACAATACGC------------     20
+                                 .||||  ||.|     ||..||            
+CF12_phage_ma      1 AAGCCACACAGCAGGCTCCTGGT-----ATCAGCATTAAGGCAGAG     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: CF12_pdeR
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      17/43 (39.5%)
+# Similarity:    17/43 (39.5%)
+# Gaps:          25/43 (58.1%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 TGGC---------------------TTGTTTGACAATACGC--     20
+                     ||||                     |||||||.||| || |  
+CF12_pdeR          1 TGGCGTCAACGAGCGTCAGGGTTTTTTGTTTGCCAA-AC-CAA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: CF12_glpT_glpA
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:       5/55 ( 9.1%)
+# Similarity:     5/55 ( 9.1%)
+# Gaps:          49/55 (89.1%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 TGGCTTGTTTGACAATACGC------------------------------     20
+                                   ||.|||                              
+CF12_glpT_glp      1 --------------ATGCGCGAAATCAAACAATCCATGTTTTTTATGTGG     36
+
+sgOXA-48_f        20 -----     20
+                          
+CF12_glpT_glp     37 CTAAA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: H53_znuB
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      15/45 (33.3%)
+# Similarity:    15/45 (33.3%)
+# Gaps:          29/45 (64.4%)
+# Score: 21.5
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 ----TG-----GCTTGTTTGAC----AATA----------CGC--     20
+                         ||     ||.|||    |    ||||          |||  
+H53_znuB           1 CGCATGCGCCAGCGTGT----CGCCAAATAAGACATGCGGCGCCA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: H53_tssF
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:       3/58 ( 5.2%)
+# Similarity:     3/58 ( 5.2%)
+# Gaps:          55/58 (94.8%)
+# Score: 15.0
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 --------------------------------------TGGCTTGTTTGA     12
+                                                           |||         
+H53_tssF           1 GATCGTAGCGCTGACCCCAAGGCTGCCGGCGATGAAGATGG---------     41
+
+sgOXA-48_f        13 CAATACGC     20
+                             
+H53_tssF          41 --------     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: J57_dehydrogenase_Fiu
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      15/44 (34.1%)
+# Similarity:    15/44 (34.1%)
+# Gaps:          27/44 (61.4%)
+# Score: 17.5
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 --TGGCTTGTTTGACA---ATA-----------------CGC--     20
+                       |  ||| |||..||   |||                 |||  
+J57_dehydroge      1 ATT--CTT-TTTATCATTTATAGAATCACACCGGGTCAGCGCAA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: K147_integrase
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      13/43 (30.2%)
+# Similarity:    13/43 (30.2%)
+# Gaps:          25/43 (58.1%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 TGGCTTGTTTGACAATACGC-----------------------     20
+                     |.|.|.|  |||.||.||||                       
+K147_integras      1 TCGATCG--TGAGAAAACGCTTCAGGCCGTGAATCATGCGCTT     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: C288_ompC
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      14/45 (31.1%)
+# Similarity:    14/45 (31.1%)
+# Gaps:          29/45 (64.4%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 ------TGGCTTGTTTGACAATAC----GC---------------     20
+                           |.|| ||||   ||.|||    ||               
+C288_ompC          1 TGAACTTTGC-TGTT---CAGTACCAGGGCAAAAACGGTAGCGTA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: C288_cyaY
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      10/50 (20.0%)
+# Similarity:    10/50 (20.0%)
+# Gaps:          39/50 (78.0%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 ------------------------TGGCTTGTTTGACAATACGC------     20
+                                             ||||     ||.|||    |      
+C288_cyaY          1 CGCCAGGAGCCGCTGCACCAGGTATGGC-----TGGCAA----CCAAACA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: C325_potG_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:       9/52 (17.3%)
+# Similarity:     9/52 (17.3%)
+# Gaps:          43/52 (82.7%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 -----------------------------TGGCTTGT---TTGACAATAC     18
+                                                  ||| ||||   ||        
+C325_potG_rev      1 ATCATGCTTTGCGAAGAGCCGCCCGCCAATGG-TTGTAACTT--------     41
+
+sgOXA-48_f        19 GC     20
+                       
+C325_potG_rev     41 --     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: CF12_phage_major_capsid_protein_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:       6/55 (10.9%)
+# Similarity:     6/55 (10.9%)
+# Gaps:          49/55 (89.1%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 -----------------------------------TGGCTTGTTTGACAA     15
+                                                        ||||||         
+CF12_phage_ma      1 CTCTGCCTTAATGCTGATACCAGGAGCCTGCTGTGTGGCTT---------     41
+
+sgOXA-48_f        16 TACGC     20
+                          
+CF12_phage_ma     41 -----     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: CF12_pdeR_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      14/45 (31.1%)
+# Similarity:    14/45 (31.1%)
+# Gaps:          29/45 (64.4%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 TGGCTT-GTTTGACAA------------TACGC------------     20
+                         || |||||.|||            .||||            
+CF12_pdeR_rev      1 ----TTGGTTTGGCAAACAAAAAACCCTGACGCTCGTTGACGCCA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: CF12_glpT_glpA_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      15/43 (34.9%)
+# Similarity:    15/43 (34.9%)
+# Gaps:          25/43 (58.1%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 -------------------TGGCTTGTTTGACAATACGC----     20
+                                        |||.|||||||  |.|.|||    
+CF12_glpT_glp      1 TTTAGCCACATAAAAAACATGGATTGTTTG--ATTTCGCGCAT     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: H53_znuB_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      15/41 (36.6%)
+# Similarity:    15/41 (36.6%)
+# Gaps:          21/41 (51.2%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 ----------TGGCTTGTTTGACAATACGC-----------     20
+                               ||.|||.||||.|.|.||||           
+H53_znuB_revc      1 TGGCGCCGCATGTCTTATTTGGCGACACGCTGGCGCATGCG     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: H53_tssF_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      10/44 (22.7%)
+# Similarity:    10/44 (22.7%)
+# Gaps:          27/44 (61.4%)
+# Score: 11.0
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 ----------------------TGGCTTGTTTGACAATACGC--     20
+                                           |||   |.|...|..||||.  
+H53_tssF_revc      1 CCATCTTCATCGCCGGCAGCCTTGG---GGTCAGCGCTACGATC     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: J57_dehydrogenase_Fiu_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:       6/55 (10.9%)
+# Similarity:     6/55 (10.9%)
+# Gaps:          49/55 (89.1%)
+# Score: 17.5
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 TGGCTTGTTTGACAATACGC------------------------------     20
+                             |||      |||                              
+J57_dehydroge      1 --------TTG------CGCTGACCCGGTGTGATTCTATAAATGATAAAA     36
+
+sgOXA-48_f        20 -----     20
+                          
+J57_dehydroge     37 AGAAT     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: K147_integrase_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      14/42 (33.3%)
+# Similarity:    14/42 (33.3%)
+# Gaps:          23/42 (54.8%)
+# Score: 19.5
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 -------------------TG--GC-TTGTTTGACAATACGC     20
+                                        ||  || ||.|.|.||.|| ||.
+K147_integras      1 AAGCGCATGATTCACGGCCTGAAGCGTTTTCTCACGAT-CGA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: C288_ompC_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:       5/56 ( 8.9%)
+# Similarity:     5/56 ( 8.9%)
+# Gaps:          51/56 (91.1%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 TGGCTTGTTTGACAATACGC------------------------------     20
+                                    |||||                              
+C288_ompC_rev      1 ---------------TACGCTACCGTTTTTGCCCTGGTACTGAACAGCAA     35
+
+sgOXA-48_f        20 ------     20
+                           
+C288_ompC_rev     36 AGTTCA     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: sgOXA-48_f
+# 2: C288_cyaY_revcomp
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      15/42 (35.7%)
+# Similarity:    15/42 (35.7%)
+# Gaps:          23/42 (54.8%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+sgOXA-48_f         1 TGGCTTGTTTGACA---ATAC-----GC--------------     20
+                      .|.|||.|||.||   ||||     ||              
+C288_cyaY_rev      1 -TGTTTGGTTGCCAGCCATACCTGGTGCAGCGGCTCCTGGCG     41
+
+
+#---------------------------------------
+#---------------------------------------
