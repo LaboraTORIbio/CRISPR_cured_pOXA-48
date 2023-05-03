@@ -49,17 +49,18 @@ bartlett.test(w_norm ~ source, relFitness_mod)
 
 
 
-#### Comparing means
+#### Comparing means/distributions
 
 # between species of the same collection
 t.test(relFitness_mod[relFitness_mod$source == "Alonso-del Valle et al. 2021" & relFitness_mod$species == "E_coli", ]$w_norm, relFitness_mod[relFitness_mod$source == "Alonso-del Valle et al. 2021"  & relFitness_mod$species == "Klebsiella_spp", ]$w_norm)
 wilcox.test(relFitness_mod[relFitness_mod$source == "This work" & relFitness_mod$species == "E_coli", ]$w_norm, relFitness_mod[relFitness_mod$source == "This work"  & relFitness_mod$species == "Klebsiella_pneumoniae", ]$w_norm)
 t.test(relFitness_woN46[relFitness_woN46$source == "This work" & relFitness_woN46$species == "E_coli", ]$w_norm, relFitness_woN46[relFitness_woN46$source == "This work"  & relFitness_woN46$species == "Klebsiella_pneumoniae", ]$w_norm)
 kruskal.test(relFitness_mod[relFitness_mod$source == "This work", ]$w_norm, relFitness_mod[relFitness_mod$source == "This work", ]$species)
+
 # between collections
 t.test(relFitness_mod[relFitness_mod$source == "Alonso-del Valle et al. 2021", ]$w_norm, relFitness_mod[relFitness_mod$source == "This work", ]$w_norm)
 ks.test(relFitness_mod[relFitness_mod$source == "Alonso-del Valle et al. 2021", ]$w_norm, relFitness_mod[relFitness_mod$source == "This work", ]$w_norm)
-
+wilcox.test(relFitness_mod[relFitness_mod$source == "Alonso-del Valle et al. 2021", ]$w_norm, relFitness_mod[relFitness_mod$source == "This work", ]$w_norm)
 
 # among strains of this collection
 table_pvalues <- data.frame(Strain=character(0), pvalue=numeric(0))
